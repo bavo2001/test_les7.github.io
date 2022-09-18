@@ -1,0 +1,426 @@
+<!--<h2>zie je niet maar hier staat link om te linken naar ander html page</h2>
+<a href="iets.html">
+<hr>
+
+<h2>methodes post en get </h2>
+<p>zie je niet maar er staat code</p>
+<form method="post" action="bewaarInformatie.php">post </form>
+<form method="get" action="bewaarInformatie.php">get </form>
+<hr>-->
+
+<h2>een input van u form</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"><title>Formulier</title>
+</head>
+<body>
+<input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+</body>
+</html>
+<hr><hr>
+
+<h2>verzendknop</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulier</title>
+</head>
+<body>
+<input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+<input type="submit" value="Verzend">
+</body>
+</html>
+<hr><hr>
+
+<h2>verzenknop gemaakt met button</h2>
+<form method="post" action="bewaarInformatie.php">
+<input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+<button type="submit" name="Verzendknop">
+<strong>Verzend</strong></button>
+</form>
+<hr><hr>
+
+
+<h2>passwoord</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulier</title>
+</head>
+<body>
+<form method="post" action="bewaarInformatie.php">
+<input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+<input type="password" name="wachtwoord">
+<button type="submit" name="Verzendknop">
+<strong>Verzend</strong>
+</button>
+</form>
+</body>
+</html>
+<hr><hr>
+
+<h2>cijfers</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulier</title>
+</head>
+<body>
+<form method="post" action="bewaarInformatie.php">
+<input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+<p>Uw leeftijd</p>
+<input type="number" name="leeftijd" min="1" max="100">
+<input type="password" name="wachtwoord">
+<button type="submit" name="Verzendknop">
+<strong>Verzend</strong>
+</button>
+</form>
+</body>
+</html>
+<hr><hr>
+
+
+<h2>e-mail,tel,url</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulier</title>
+</head>
+<body>
+<form method="post" action="bewaarInformatie.php">
+<table width="600" border="0">
+<tbody>
+<tr>
+<td width="200"><b>Uw adres</b></td>
+<td width="400"><input type="text" name="adres" placeholder="Straatnaam en huisnummer"></td>
+</tr>
+<tr>
+<td><b>Uw leeftijd</b></td>
+<td><input type="number" name="leeftijd" min="1" max="100"></td>
+</tr>
+<tr>
+<td><b>Uw wachtwoord</b></td>
+<td><input type="password" name="wachtwoord"></td>
+</tr>
+<tr>
+<td><b>Uw e-mailadres</b></td>
+<td><input type="email" name="emailadres"></td>
+</tr>
+<tr>
+<td><b>Uw webpagina</b></td>
+<td><input type="url" name="webadres"></td>
+</tr>
+<tr>
+<td><b>Uw telefoonnummer</b></td>
+<td><input type="tel" name="telefoonnummer"></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><button type="submit" name="verzendknop">
+<strong>Verzend</strong></button></td>
+</tr>
+</tbody>
+</table>
+</form>
+</body>
+</html>
+<hr><hr>
+
+<h2>datums</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulier</title>
+</head>
+<body>
+<form method="post" action="bewaarInformatie.php">
+    <table width="600" border="0">
+        <tbody>
+            <tr>
+                <td width="200">
+                    <b>Uw adres</b>
+                </td>
+                <td width="400">
+                    <input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw leeftijd</b>
+                </td>
+                <td>
+                    <input type="number" name="leeftijd" min="1" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw wachtwoord</b>
+                </td>
+                <td>
+                    <input type="password" name="wachtwoord">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw e-mailadres</b>
+                </td>
+                <td>
+                    <input type="email" name="emailadres">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw webpagina</b>
+                </td>
+                <td>
+                    <input type="url" name="webadres">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw telefoonnummer</b>
+                </td>
+                <td>
+                    <input type="tel" name="telefoonnummer">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw geboortedatum</b>
+                </td>
+                <td>
+                    <input type="date" name="datum" max="2080-12-31">
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <button type="submit" name="verzendknop">
+                    <strong>Verzend</strong>
+                </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
+<hr><hr>
+
+<h2>zoeken</h2>
+<input type="search" name="zoek" placeholder="Typ hier uw zoekopdracht">
+<hr><hr>
+
+<h2>keuzenrondjes</h2>
+<tr>
+<td><b>Uw geslacht</b></td>
+<td>
+<input type="radio" name="geslacht" value="man" checked>Man
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders">Anders
+</td>
+<tr>
+<tr>
+<td>
+<b> Selecteer minimaal een van de aangeboden onderwerpen </b>
+</td>
+<td>
+<input type="checkbox" name="onderwerpen" value="ja">Sport
+<input type="checkbox" name="onderwerpen" value="ja">Gezondheid
+<input type="checkbox" name="onderwerpen" value="ja">Kunst
+<input type="checkbox" name="onderwerpen" value="ja">Politiek
+<input type="checkbox" name="onderwerpen" value="ja">Weer
+</td>
+</tr>
+<hr><hr>
+
+<h2>berichtvelden lijsten en bestanden</h2>
+<select name="land">
+<option value="nl">Nederland</option>
+<option value="be" selected>België</option>
+<option value="de">Duitsland</option>
+<option value="fr">Frankrijk</option>
+</select>
+
+<p>textarea</p>
+<textarea name="bericht" maxlength="500"> </textarea>
+<p>beiden in 1x</p>
+<tr>
+<td><b>Selecteer uw bestand</b></td>
+<td><input type="file" name="document"></td>
+</tr>
+<td><b>Selecteer uw land</b></td>
+<td><select name="land">
+<option value="nl">Nederland</option>
+<option value="be" selected>België</option>
+<option value="de">Duitsland</option>
+<option value="fr">Frankrijk</option>
+</select></td>
+<td><b>Schrijf uw boodschap</b></td><br>
+<td><textarea name ="bericht" maxlength ="1500">
+</textarea>
+</td>
+<hr><hr><hr><hr>
+
+
+
+<h1>even de volledige code met alles erin tot nu toe</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulier</title>
+</head>
+<body>
+<form method="post" action="bewaarInformatie.php">
+    <table width="600" border="0">
+        <tbody>
+            <tr>
+                <td width="200">
+                    <b>Uw adres</b>
+                </td>
+                <td width="400">
+                    <input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw leeftijd</b>
+                </td>
+                <td>
+                    <input type="number" name="leeftijd" min="1" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw wachtwoord</b>
+                </td>
+                <td>
+                    <input type="password" name="wachtwoord">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw e-mailadres</b>
+                </td>
+                <td>
+                    <input type="email" name="emailadres">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw webpagina</b>
+                </td>
+                <td>
+                    <input type="url" name="webadres">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw telefoonnummer</b>
+                </td>
+                <td>
+                    <input type="tel" name="telefoonnummer">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Uw geboortedatum</b>
+                </td>
+                <td>
+                    <input type="date" name="datum" max="2080-12-31">
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+<td><b>Uw geslacht</b></td>
+<td>
+<input type="radio" name="geslacht" value="man" checked>Man
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders">Anders
+</td>
+<tr>
+<tr>
+<td><b> Selecteer minimaal een van de aangeboden onderwerpen </b></td>
+<td>
+<input type="checkbox" name="onderwerpen" value="ja">Sport
+<input type="checkbox" name="onderwerpen" value="ja">Gezondheid
+<input type="checkbox" name="onderwerpen" value="ja">Kunst
+<input type="checkbox" name="onderwerpen" value="ja">Politiek
+<input type="checkbox" name="onderwerpen" value="ja">Weer
+</td>
+</tr>
+<tr>
+<td><b>Selecteer uw bestand</b></td>
+<td><input type="file" name="document"></td></tr>
+<td><b>Selecteer uw land</b></td>
+<td><select name="land">
+<option value="nl">Nederland</option>
+<option value="be" selected>België</option>
+<option value="de">Duitsland</option>
+<option value="fr">Frankrijk</option>
+</select></td></tr>
+<td><b>Schrijf uw boodschap</b></td><br>
+<td><textarea name ="bericht" maxlength ="1500">
+</textarea></td></tr>
+<td>
+<button type="submit" name="verzendknop">
+<strong>Verzend</strong>
+</button>
+</td>
+</tbody>
+</table>
+</form>
+</body>
+</html>
+<hr><hr><br>
+
+<h2>labels</h2>
+<p>als je nu op naam drukt kan je automatisch ingeven in het tekstvak.</p>
+<label for="naam">Uw naam</label>
+<input type="text" id="naam" name="naam">
+<hr><hr>
+
+<h2>velden groeperen</h2>
+<fieldset>
+  <legend>Persoonlijke gegevens
+  </legend>
+  <label for="naam">Naam:</label>
+  <input id="naam" type="text" name="naam">
+  <br>
+  <br>
+  <label for="adres">Adres:</label>
+  <input type="text" id="adres" name="adres">
+</fieldset>
+<hr><hr><hr>
+
+<h2>mailscript</h2>
+<h1>test met andere site die staat in handleiding + uitleg</h1>
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Contactformulier</h1>
+<form action="https://formspree.io/f/mrgdplro" id="contactform" method="post">
+<input type="text" name="name" placeholder="Uw naam">
+<br>
+<br>
+<input type="email" name="_replyto" placeholder="Uw email">
+<br>
+<br>
+<input type="hidden" name="_subject" value="Website contact"/>
+<textarea name="message" placeholder="Uw bericht">
+</textarea>
+<br>
+<br>
+<input type="text" name="_gotcha" style="display:none"/>
+<input type="submit" value="Verzend">
+<br>
+</form>
+  </body>
+</html>
